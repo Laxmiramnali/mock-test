@@ -13,3 +13,11 @@ class Queue:
 
     def isEmpty(self):
         return len(self.queue) == 0
+
+queue = Queue()
+queue.enqueue(10)
+queue.enqueue(20)
+queue.enqueue(30)
+print(queue.dequeue())  
+print(queue.isEmpty())  
+
